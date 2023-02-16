@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+:root {
+    --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+    --GrayishBlue: hsl(212, 23%, 69%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--LightGrayishBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    width: 55rem;
+    height: 25rem;
+    margin-top: 15rem;
+    border-top-left-radius: 20px;
+    border-radius: 20px;
+}
+
+.drawers {
+    height: auto;
+    width: 25rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    
+}
+
+h1 {
+    color: var(--VeryDarkGrayishBlue);
+    word-spacing: .25rem;
+}
+
+.text {
+    color: var(--DesaturatedDarkBlue);
+    font-size: 16px;
+    word-spacing: .1rem;
+}
+
+.info-share {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.avatar {
+    border-radius: 20px;
+}
+
+
+
+.Michelle {
+    color: var(--VeryDarkGrayishBlue);
+    font-weight: 600;
+}
+
+.date {
+    color: var(--GrayishBlue);
+}
+
+.share-div {
+    background-color: var(--LightGrayishBlue);
+    border-radius: 15px;
+    position: relative;
+    left: 12rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abolute-div {
+    position: absolute;
+}
+
+.share-div {
+    position: relative;
+    left: 24rem;
+    cursor: pointer;
+}
+
+.share {
+    width: 1rem;
+    border-radius: 15px;
+    
+}
+
+
+.share-content {
+    position: relative;
+    top: -5rem;
+    left: 6.2rem;
+    display: none;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--VeryDarkGrayishBlue);
+    width: 14rem;
+    height: 3rem;
+    word-spacing: 1rem;
+    border-radius: 15px;
+   
+}
+
+.share-content p {
+    color: var(--GrayishBlue);
+}
+
+
+
+.triangle {
+    position: absolute;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 20px solid var(--VeryDarkGrayishBlue);
+    top: 2.3rem;
+    right: 5.1rem;
+}
+
+.coded {
+    position: absolute;
+    top: 40rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.Facebook:hover {
+    background-color: blue;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}
+
+.Twitter:hover {
+    background-color: rgba(0, 255, 255, 0.596);
+    border-radius: 15px 15px 100px 100px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.Pinterest:hover {
+    background-color: red;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .content {
+        height: 42rem;
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .drawers{
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+    }
+
+    h1 {
+        margin-top: .2rem;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        margin-bottom: 2rem;
+        
+
+    }
+
+    .info-share {
+        margin-top: 3rem;
+    }
+    
+    .share-div {
+        position: relative;
+        left: 18.5rem;
+        bottom: -.3rem;
+        z-index: 9;
+        border-radius: 20px;
+    }
+    
+
+    .share-content {
+        position: absolute;
+        top: 53.5rem;
+        left: 3rem;
+        z-index: 1;
+        width: 81%;
+        height: 3.5rem;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding-right: 3rem;
+        
+    }
+
+
+    .coded {
+        position: absolute;
+        top: 60rem;
+    }
+    
+
+    .triangle {
+        display: none;
+    }
+}
