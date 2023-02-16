@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/article-preview-component-with-css-html-and-js-Zuc82ZiZRE)
+- Live Site URL: [Site](https://sirbiel100.github.io/Challenge--4/)
 
 ## My process
 
@@ -33,10 +33,6 @@ Users should be able to:
 
 I learned better how to use "Position" in CSS.
 
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
